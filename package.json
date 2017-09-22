@@ -1,0 +1,37 @@
+{
+  "name": "nba_resource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "antd": "^2.13.2",
+    "css-loader": "^0.28.7",
+    "csv-loader": "^2.1.1",
+    "file-loader": "^0.11.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "xml-loader": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickzhou3300781/nba_resource.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickzhou3300781/nba_resource/issues"
+  },
+  "homepage": "https://github.com/nickzhou3300781/nba_resource#readme"
+}
