@@ -20,15 +20,23 @@ module.exports = {
             ]
         },
         {
-            test:/\.(scv|tsv)/,
-            use:[
+            test: /\.(scv|tsv)/,
+            use: [
                 'csv-loader'
             ]
-        },{
-            test:/\.xml$/,
-            use:[
+        }, {
+            test: /\.xml$/,
+            use: [
                 'xml-loader'
             ]
+        },
+        {
+            test: /\.jsx?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+                presets: ['es2015','react']
+            }
         }]
     }
 }
