@@ -16,6 +16,9 @@
     "css-loader": "^0.28.7",
     "csv-loader": "^2.1.1",
     "file-loader": "^0.11.2",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
@@ -26,7 +29,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "api":"babel-node ./src/apiserver/app.js"
   },
   "repository": {
     "type": "git",
